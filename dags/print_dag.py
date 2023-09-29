@@ -16,7 +16,7 @@ def print_hello(**kwargs):
 default_args = {
     'owner': 'you',
     'depends_on_past': False,
-    'start_date': datetime(2023, 9, 29),
+    'start_date': datetime(2023, 9, 28),
     'retries': 1,
     'retry_delay': timedelta(minutes=1),
 }
